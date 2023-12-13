@@ -1,8 +1,40 @@
 {
     "about": {
         "idioma": {
-            "en": "I am a passionate web programmer, located in the charming town of Rubí in Barcelona. My life revolves around my independence; currently, I am dedicated to work, striving to support myself on my own. My personality stands out for my constant cheerfulness and perennial smile. I am calm, introverted and meticulous, which is reflected in my responsibility and attention to detail. My constant commitment is to learn and improve in my career day by day. \n My journey in the IT world started with a strong interest in web design. After completing my intermediate degree in computer science (SMX), I decided to further explore this exciting field. I immersed myself in a Web Tailoring and Publishing course, focusing on the front-end, thus marking the beginning of my specialization in this area.",
-            "es": "Soy una programadora web apasionada, ubicada en el encantador pueblo de Rubí en Barcelona. Mi vida gira en torno a mi independencia; actualmente, me dedico al trabajo, esforzándome por mantenerme por mi cuenta. Mi personalidad se destaca por mi constante alegría y una sonrisa perenne. Soy tranquila, introvertida y meticulosa, lo cual se refleja en mi responsabilidad y atención a los detalles. Mi compromiso constante es aprender y mejorar en mi carrera día a día. \n Mi viaje en el mundo de la informática comenzó con un fuerte interés en el diseño web. Después de completar mi grado medio en informática (SMX), decidí explorar más profundamente este emocionante campo. Me sumergí en un curso de Confección y Publicación Web, enfocándome en el front-end, marcando así el inicio de mi especialización en esta área."
+            "en": "I am a passionate web programmer, located in the charming town of Rubí in Barcelona. My life revolves around my independence; currently, I am dedicated to work, striving to support myself on my own. My personality stands out for my constant cheerfulness and perennial smile. I am calm, introverted and meticulous, which is reflected in my responsibility and attention to detail. My constant commitment is to learn and improve in my career day by day. \n \n  My journey in the IT world started with a strong interest in web design. After completing my intermediate degree in computer science (SMX), I decided to further explore this exciting field. I immersed myself in a Web Tailoring and Publishing course, focusing on the front-end, thus marking the beginning of my specialization in this area.",
+            "es": "Soy una programadora web apasionada, ubicada en el encantador pueblo de Rubí en Barcelona. Mi vida gira en torno a mi independencia; actualmente, me dedico al trabajo, esforzándome por mantenerme por mi cuenta. Mi personalidad se destaca por mi constante alegría y una sonrisa perenne. Soy tranquila, introvertida y meticulosa, lo cual se refleja en mi responsabilidad y atención a los detalles. Mi compromiso constante es aprender y mejorar en mi carrera día a día. \n \n  Mi viaje en el mundo de la informática comenzó con un fuerte interés en el diseño web. Después de completar mi grado medio en informática (SMX), decidí explorar más profundamente este emocionante campo. Me sumergí en un curso de Confección y Publicación Web, enfocándome en el front-end, marcando así el inicio de mi especialización en esta área."
         }
-    }
+    },
+    "expe" :{
+        "es": [
+          {
+            "date": "Febrero - Junio 2019",
+            "title": "E-conectados",
+            "description": "Prácticas en E-conectados como servicedesk de mantenimiento de impresoras.",
+            "tags": ["TeamViewer", "BBDD"]
+          },
+          {
+            "date": "Diciembre 2022 - Junio 2023",
+            "title": "Meetmaps",
+            "description": "Prácticas en Meetmaps, edición y gestión de app para eventos.",
+            "tags": ["JavaScript", "PHP", "HTML", "CSS", "JSON"]
+          }
+        ],
+        "en": [
+          {
+            "date": "February - June 2019",
+            "title": "E-connected",
+            "description": "Internship at E-connected as a servicedesk for printer maintenance.",
+            "tags": ["TeamViewer", "Databases"]
+          },
+          {
+            "date": "December 2022 - June 2023",
+            "title": "Meetmaps",
+            "description": "Internship at Meetmaps, editing and managing app for events.",
+            "tags": ["JavaScript", "PHP", "HTML", "CSS", "JSON"]
+          }
+         
+        ]
+      }
+      
 }
