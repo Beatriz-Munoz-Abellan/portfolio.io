@@ -5,36 +5,131 @@
             "es": "Soy una programadora web apasionada, ubicada en el encantador pueblo de Rubí en Barcelona. Mi vida gira en torno a mi independencia; actualmente, me dedico al trabajo, esforzándome por mantenerme por mi cuenta. Mi personalidad se destaca por mi constante alegría y una sonrisa perenne. Soy tranquila, introvertida y meticulosa, lo cual se refleja en mi responsabilidad y atención a los detalles. Mi compromiso constante es aprender y mejorar en mi carrera día a día. \n \n  Mi viaje en el mundo de la informática comenzó con un fuerte interés en el diseño web. Después de completar mi grado medio en informática (SMX), decidí explorar más profundamente este emocionante campo. Me sumergí en un curso de Confección y Publicación Web, enfocándome en el front-end, marcando así el inicio de mi especialización en esta área."
         }
     },
-    "expe" :{
+    "expe": {
         "es": [
-          {
-            "date": "Febrero - Junio 2019",
-            "title": "E-conectados",
-            "description": "Prácticas en E-conectados como servicedesk de mantenimiento de impresoras.",
-            "tags": ["TeamViewer", "BBDD"]
-          },
-          {
-            "date": "Diciembre 2022 - Junio 2023",
-            "title": "Meetmaps",
-            "description": "Prácticas en Meetmaps, edición y gestión de app para eventos.",
-            "tags": ["JavaScript", "PHP", "HTML", "CSS", "JSON"]
-          }
+            {
+                "date": "Febrero - Junio 2019",
+                "title": "E-conectados",
+                "description": "Prácticas en E-conectados como servicedesk de mantenimiento de impresoras.",
+                "tags": [
+                    "TeamViewer",
+                    "BBDD"
+                ]
+            },
+            {
+                "date": "Diciembre 2022 - Junio 2023",
+                "title": "Meetmaps",
+                "description": "Prácticas en Meetmaps, edición y gestión de app para eventos.",
+                "tags": [
+                    "JavaScript",
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "JSON"
+                ]
+            }
         ],
         "en": [
+            {
+                "date": "February - June 2019",
+                "title": "E-connected",
+                "description": "Internship at E-connected as a servicedesk for printer maintenance.",
+                "tags": [
+                    "TeamViewer",
+                    "Databases"
+                ]
+            },
+            {
+                "date": "December 2022 - June 2023",
+                "title": "Meetmaps",
+                "description": "Internship at Meetmaps, editing and managing app for events.",
+                "tags": [
+                    "JavaScript",
+                    "PHP",
+                    "HTML",
+                    "CSS",
+                    "JSON"
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "es": [
+            {
+                "title":"E-conectados",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+            },
+            {
+                "title":"E-conectados",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+            },
+            {
+                "title":"E-conectados",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+            },
+            {
+                "title":"E-conectados",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+            }
+        ],
+        "en": [
+            {
+                "title":"E-conectadosen",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+            },
+            {
+                "title":"E-conectadosen",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+            },
+            {
+                "title":"E-conectadosen",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+            },
+            {
+                "title":"E-conectadosen",
+                "image": "./img/cabecera.jpg",
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+            }
+        ]
+    },
+    "skills": {
+        "back_end": [
           {
-            "date": "February - June 2019",
-            "title": "E-connected",
-            "description": "Internship at E-connected as a servicedesk for printer maintenance.",
-            "tags": ["TeamViewer", "Databases"]
+            "svg": "./img/icons8-mysql.svg"
           },
           {
-            "date": "December 2022 - June 2023",
-            "title": "Meetmaps",
-            "description": "Internship at Meetmaps, editing and managing app for events.",
-            "tags": ["JavaScript", "PHP", "HTML", "CSS", "JSON"]
+            "svg": "./img/icons8-php.svg"
+          },
+          {
+            "svg": "./img/icons8-symfony.svg"
+          },
+          {
+            "svg": "./img/laravel-2.svg"
           }
-         
+        ],
+        "front_end": [
+          {
+            "svg": "./img/icons8-angularjs.svg"
+          },
+          {
+            "svg": "./img/icons8-css.svg"
+          },
+          {
+            "svg": "./img/icons8-html.svg"
+          },
+          {
+            "svg": "./img/icons8-logotipo-de-javascript.svg"
+          },
+          {
+            "svg": "./img/icons8-reaccionar.svg"
+          }
         ]
       }
-      
 }

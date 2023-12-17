@@ -33,9 +33,61 @@ function changeLanguage(lang) {
             </div>
           </div>
         `;
+
         // Agregar el contenido al contenedor
         contExpe.innerHTML += htmlContent;
       });
+
+      // Selecciona el idioma deseado para la sección "projects"
+      const projectsContent = data.projects[lang];
+
+      // Obtén el contenedor donde se mostrará la información de proyectos
+      const contProjects = document.getElementById("cont-projects");
+
+      // Limpiar el contenido existente
+      contProjects.innerHTML = "";
+
+      // Iterar sobre la información de proyectos y agregarla al contenedor
+      projectsContent.forEach(project => {
+        // Crear la estructura HTML para cada proyecto
+        const projectHTML = `
+          <div class="project">
+            <img src="${project.image}" alt="${project.title}" class="project-image">
+            <h3 class="project-title">${project.title}</h3>
+            <p class="project-description">${project.description}</p>
+            <button class="btn-ver-mas">Ver Más</button>
+          </div>
+        `;
+
+        // Agregar el proyecto al contenedor
+        contProjects.innerHTML += projectHTML;
+      });
+
+
+      // Selecciona las habilidades deseadas
+      const skillsContent = data.skills;
+
+      // Obtén el contenedor donde se mostrará la información de habilidades
+      const contSkills = document.getElementById("cont-skills");
+
+      // Limpiar el contenido existente
+      contSkills.innerHTML = "";
+
+      // Iterar sobre las categorías de habilidades (back y front)
+      for (const [category, skills] of Object.entries(skillsContent)) {
+        // Crear la estructura HTML para cada categoría de habilidades
+        const categoryHTML = `
+          <div class="skill-category">
+            <h2>${category.toUpperCase()}</h2>
+            <div class="skill-icons">
+              ${skills.map(skill => `<img src="${skill.svg}" alt="${category}">`).join(' ')}
+            </div>
+          </div>
+        `;
+
+        // Agregar la categoría de habilidades al contenedor
+        contSkills.innerHTML += categoryHTML;
+      }
     })
     .catch(error => console.error('Error al cargar el archivo JSON:', error));
 }
