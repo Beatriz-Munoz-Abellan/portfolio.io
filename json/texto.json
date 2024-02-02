@@ -56,46 +56,86 @@
     "projects": {
         "es": [
             {
-                "title":"E-conectados",
-                "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+                "title":"Ouden",
+                "image": "./img/finalEs.gif",
+                "description" :"Proyecto Escolar ",
+                "cont-projects":[
+                    {
+                        "description-cont":"Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos."
+                    }
+                ]
             },
             {
-                "title":"E-conectados",
-                "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+                "title":"Galeria de Fotos",
+                "image": "./img/galeFoto.gif",
+                "description" :"Projecto para un Fotografo",
+                "cont-projects":[
+                    {
+                        "description-cont":"aEsta galería de fotos esta diseñada para un fotógrafo llamado Daniel, en donde me pidió que quería que le hiciera una pagina donde pueda publicar cada fotografía y de esta manera promocionarse y atraer a mas clientela.aaa"
+                    }
+                ]
             },
             {
-                "title":"E-conectados",
-                "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+                "title":"Carrusel informativo",
+                "image": "./img/meetVideo.gif",
+                "description" :"Diseño web",
+                "cont-projects":[
+                    {
+                        "description-cont":"En este proyecto cree una plantilla para un evento de una empresa llamada Meetmaps en la que me encontraba de practicas, en donde muestro información sobre el evento, en donde se celebrara, una agenda de las actividades y informacion sobre los ponentes"
+                    }
+                ]
             },
             {
-                "title":"E-conectados",
-                "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance."
+                "title":"Eventos",
+                "image": "./img/pagMeet.gif",
+                "description" :"Plantilla de diseño",
+                "cont-projects":[
+                    {
+                        "description-cont":"Cree este carrusel para la empresa Meetpas haciendo una petición a la api privada con JS recogiendo toda la información sobre una galería de videos que contiene información de cada evento."
+                    }
+                ]
             }
         ],
         "en": [
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
+                "cont-projects":[
+                    {
+                        "description-cont":"aaaas"
+                    }
+                ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
+                "cont-projects":[
+                    {
+                        "description-cont":"aaaas"
+                    }
+                ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
+                "cont-projects":[
+                    {
+                        "description-cont":"aaaas"
+                    }
+                ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
-                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en"
+                "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
+                "cont-projects":[
+                    {
+                        "description-cont":"aaaas"
+                    }
+                ]
             }
         ]
     },
