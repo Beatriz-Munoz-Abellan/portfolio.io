@@ -258,21 +258,28 @@ main {
 
 /* Estilos para la imagen dentro del modal */
 .modal-image {
-  max-width: 100%; /* La imagen se ajustará al ancho del modal */
-  max-height: 80vh; /* Altura máxima del modal */
-  margin-bottom: 20px;
+  max-width: 85%; /* La imagen se ajustará al ancho del modal */
+  max-height: 100%; /* Altura máxima del modal */
   border-radius: 6px;
+  margin-left: 7%;
+}
+
+.modal-content p{
+  margin-top: 40px;
 }
 
 /* Estilos para el contenido del modal */
 .modal-content {
-  margin: 5% auto; /* Margen superior e inferior automático */
+  margin: 2% auto; /* Margen superior e inferior automático */
   padding: 20px;
   box-shadow: 0px 0px 15px #112a39; /* Borde sólido */
   background-color: #161e30; /* Color de fondo */
   width: 80%;
-  max-width: 800px; /* Ancho máximo del modal */
+  height: 90vh;
+  max-width: 2000px; /* Ancho máximo del modal */
   border-radius: 8px; /* Bordes redondeados */
+  overflow: auto; /* Añade scroll cuando el contenido excede la altura */
+  overflow-y: auto; /* Añade scroll vertical */
 }
 
 /* Estilos para el botón de cerrar */
