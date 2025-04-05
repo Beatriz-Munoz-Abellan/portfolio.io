@@ -52,56 +52,27 @@ function changeLanguage(lang) {
         // Crear la estructura HTML para cada proyecto
         const projectHTML = `
           <div class="project">
-            <img src="${project.image}" alt="${project.title}" class="project-image">
-            <h3 class="project-title">${project.title}</h3>
-            <p class="project-description">${project.description}</p>
-            <button class="btn-ver-mas">Ver Más</button>
-          </div>
+            <div class="project-content">
+              <img src="${project.image}" alt="${project.title}" class="project-img">
+              <div class="project-text">
+                <h3 class="project-title">${project.title}</h3>
+                <p class="project-description">${project.description}</p>
+                <p class="project-description">${project.description_cont}</p>
+                <div class="programs">
+                  <h5>Programas Utilizados</h5>
+                  <ul>
+                    ${project['cont-projects'][0]['programs'].map(program => `<span class="tags">${program}</span>`).join('')}
+                  </ul>
+                </div>
+              </div>
+            </div>
+             </div>
         `;
-
         // Agregar el proyecto al contenedor
         contProjects.innerHTML += projectHTML;
+
       });
-
-      // Obtener los botones "Ver Más"
-      const verMasButtons = document.querySelectorAll(".btn-ver-mas");
-
-      // Obtener el modal y el span para cerrarlo
-      var modal = document.getElementById("myModal");
-      var span = document.getElementsByClassName("close")[0];
-      var modalContent = document.getElementById("modal-content");
-      var modalImage = document.getElementById("modal-image");
-
-
-      // Agregar un evento de clic a cada botón "Ver Más"
-      verMasButtons.forEach((button, index) => {
-        button.addEventListener("click", () => {
-          // Aquí puedes mostrar el contenido correspondiente al proyecto en el modal
-          const project = projectsContent[index]; // Obtener el proyecto correspondiente al botón clicado
-          const modalText = project["cont-projects"][0]["description-cont"]; // Obtener el contenido del proyecto
-          const modalImageSrc = project.image; // Obtener la ruta de la imagen del proyecto
-
-          modalContent.textContent = modalText;
-          modalImage.src = modalImageSrc; // Establecer la fuente de la imagen del modal
-
-          // Mostrar el modal
-          modal.style.display = "block";
-        });
-      });
-
-
-      // Cerrar el modal cuando se hace clic en el botón de cerrar (span)
-      span.onclick = function () {
-        modal.style.display = "none";
-      }
-
-      // Cerrar el modal cuando se hace clic en cualquier lugar fuera del modal
-      window.onclick = function (event) {
-        if (event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-
+      
       // Selecciona las habilidades deseadas
       const skillsContent = data.skills;
 
