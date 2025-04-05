@@ -10,7 +10,7 @@
             {
                 "date": "Febrero - Junio 2019",
                 "title": "E-conectados",
-                "description": "Prácticas en E-conectados como servicedesk de mantenimiento de impresoras.",
+                "description": "Prácticas en E-conectados como servicedesk de mantenimiento de impresoras fotograficas.",
                 "tags": [
                     "TeamViewer",
                     "BBDD"
@@ -19,13 +19,14 @@
             {
                 "date": "Diciembre 2022 - Junio 2023",
                 "title": "Meetmaps",
-                "description": "Prácticas en Meetmaps, edición y gestión de app para eventos.",
+                "description": "Participación en Meetmaps en la edición, gestión y mantenimiento de una aplicación orientada a la creación y gestión de eventos para clientes.",
                 "tags": [
                     "JavaScript",
                     "PHP",
                     "HTML",
                     "CSS",
-                    "JSON"
+                    "JSON",
+                    "APIs"
                 ]
             }
         ],
@@ -33,7 +34,7 @@
             {
                 "date": "February - June 2019",
                 "title": "E-connected",
-                "description": "Internship at E-connected as a servicedesk for printer maintenance.",
+                "description": "Internships in E-connected as a service desk for maintenance of photographic printers.",
                 "tags": [
                     "TeamViewer",
                     "Databases"
@@ -42,13 +43,14 @@
             {
                 "date": "December 2022 - June 2023",
                 "title": "Meetmaps",
-                "description": "Internship at Meetmaps, editing and managing app for events.",
+                "description": "Participation in Meetmaps in the edition, management and maintenance of an application oriented to the creation and management of events for clients.",
                 "tags": [
                     "JavaScript",
                     "PHP",
                     "HTML",
                     "CSS",
-                    "JSON"
+                    "JSON",
+                    "APIs"
                 ]
             }
         ]
@@ -56,85 +58,107 @@
     "projects": {
         "es": [
             {
-                "title":"Ouden",
-                "image": "./img/finalEs.gif",
-                "description" :"Proyecto Escolar ",
-                "cont-projects":[
-                    {
-                        "description-cont":"Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos."
-                    }
+                "title": "Ouden",
+                "image": "./img/Ouden.gif",
+                "description": "Proyecto Escolar",
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+                "cont-projects": [
+                  {
+                    
+                    "programs": ["HTML", "CSS", "JavaScript", "Angular", "Symfony", "Bootstrap"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
-            },
-            {
-                "title":"Galeria de Fotos",
-                "image": "./img/galeFoto.gif",
-                "description" :"Proyecto para un Fotografo",
-                "cont-projects":[
-                    {
-                        "description-cont":"Esta galería de fotos esta diseñada para un fotógrafo llamado Daniel, en donde me pidió que quería que le hiciera una pagina donde pueda publicar cada fotografía y de esta manera promocionarse y atraer a mas clientela.aaa"
-                    }
+              },
+              {
+                "title": "Ouden",
+                "image": "./img/Ouden.gif",
+                "description": "Proyecto Escolar",
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
-            },
-            {
-                "title":"Carrusel informativo",
-                "image": "./img/meetVideo.gif",
-                "description" :"Diseño web",
-                "cont-projects":[
-                    {
-                        "description-cont":"En este proyecto cree una plantilla para un evento de una empresa llamada Meetmaps en la que me encontraba de practicas, en donde muestro información sobre el evento, en donde se celebrara, una agenda de las actividades y informacion sobre los ponentes"
-                    }
+              },
+              {
+                "title": "Ouden",
+                "image": "./img/Ouden.gif",
+                "description": "Proyecto Escolar",
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
-            },
-            {
-                "title":"Eventos",
-                "image": "./img/pagMeet.gif",
-                "description" :"Plantilla de diseño",
-                "cont-projects":[
-                    {
-                        "description-cont":"Cree este carrusel para la empresa Meetpas haciendo una petición a la api privada con JS recogiendo toda la información sobre una galería de videos que contiene información de cada evento."
-                    }
+              },
+              {
+                "title": "Ouden",
+                "image": "./img/Ouden.gif",
+                "description": "Proyecto Escolar",
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
-            }
+              }
         ],
         "en": [
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
                 "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
-                "cont-projects":[
-                    {
-                        "description-cont":"aaaas"
-                    }
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
                 "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
-                "cont-projects":[
-                    {
-                        "description-cont":"aaaas"
-                    }
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
                 "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
-                "cont-projects":[
-                    {
-                        "description-cont":"aaaas"
-                    }
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
             },
             {
                 "title":"E-conectadosen",
                 "image": "./img/cabecera.jpg",
                 "description" :"Internship at E-connected as a servicedesk for printer maintenance.en",
-                "cont-projects":[
-                    {
-                        "description-cont":"aaaas"
-                    }
+                "description_cont": "Este es el proyecto que tuve que hacer al final de mis estudios. Consistía en crear una página web en la que los clientes pudieran comprar mapas para la construcción de sus casas, con un buscador que permitiera aplicar filtros para satisfacer sus gustos.",
+
+                "cont-projects": [
+                  {
+                    "programs": ["HTML", "CSS", "JavaScript", "Node.js"],
+                    "programLinks": "https://www.ejemplo.com/programa"
+                  }
                 ]
             }
         ]
