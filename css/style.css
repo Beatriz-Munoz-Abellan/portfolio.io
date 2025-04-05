@@ -120,7 +120,7 @@ main {
     background-color: #cc6fa1; 
     color: #fff;
     padding: 3px 8px;
-    margin-top: 8px;
+    margin-top: 16px;
     margin-right: 5px;
     border-radius: 5px;
     font-size: 14px;
@@ -131,8 +131,9 @@ main {
     padding: 16px;
     border-radius: 6px;
     width: 100%;
-    height: 200px;
-}
+    height: auto;
+    min-height: 245px;
+  }
 
 .cont:hover{
     box-shadow: 0px 1px 9px #112a39;
@@ -162,55 +163,68 @@ main {
 }
 
 #cont-projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: auto;
     margin-top: 30px;
   }
   
-  .project {
-    background-color: #161e30;
-    padding: 16px;
-    border-radius: 6px;
-    width: 32%; /* Ajusta según sea necesario */
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    position: relative;
-  }
+/* Contenedor de los proyectos */
+.projects {
+  margin: auto;
+  width: 80%;
+  padding: 3rem 0;
+}
+
+.project-content {
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #161e30;
+  margin-bottom: 2rem;
+}
+
+.project-img {
+  width: 45%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-text {
+  max-width: 600px;
+  margin: 16px;
+}
+
+/* Estilo para el texto de los proyectos */
+.project h3 {
+  font-size: 2rem;
+  color: #cc6fa1;
+  margin-bottom: 1rem;
+}
+
+.project p {
+  font-size: 1rem;
   
-  .project:hover {
-    box-shadow: 0px 1px 9px #112a39;
-    transition: 0.5s;
-  }
-  
-  .project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 6px;
-  }
-  
-  .project-title {
-    color: #cc6fa1;
-    margin: 10px 0;
-  }
-  
-  .project-description {
-    color: #7a7a7a;
-    margin-bottom: 10px;
-  }
-  
-  .btn-ver-mas {
-    background-color: #cc6fa1;
-    color: #fff;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .btn-ver-mas:hover {
-    background-color: #a84393;
-  }
+}
+
+/* Botones */
+.project .btn {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.project .btn:hover {
+  background-color: #333;
+}
+
+/* Alternancia: cada proyecto alterna la posición de la imagen */
+.project:nth-child(even) .project-content {
+  flex-direction: row-reverse; /* En los proyectos de índice par, la imagen estará a la derecha */
+}
+
 
   #cont-skills {
     display: grid;
@@ -243,61 +257,7 @@ main {
     transform: scale(1.1); /* Escala la imagen al hacer hover */
   }
 
-  /* Estilos para el modal */
-.modal {
-  display: none; /* El modal está oculto por defecto */
-  position: fixed; 
-  z-index: 1; /* Posición del modal sobre otros elementos */
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto; /* Permite desplazamiento si el contenido del modal es demasiado grande */
-  background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
-}
 
-/* Estilos para la imagen dentro del modal */
-.modal-image {
-  max-width: 85%; /* La imagen se ajustará al ancho del modal */
-  max-height: 100%; /* Altura máxima del modal */
-  border-radius: 6px;
-  margin-left: 7%;
-}
-
-.modal-content p{
-  margin-top: 40px;
-}
-
-/* Estilos para el contenido del modal */
-.modal-content {
-  margin: 2% auto; /* Margen superior e inferior automático */
-  padding: 20px;
-  box-shadow: 0px 0px 15px #112a39; /* Borde sólido */
-  background-color: #161e30; /* Color de fondo */
-  width: 80%;
-  height: 90vh;
-  max-width: 2000px; /* Ancho máximo del modal */
-  border-radius: 8px; /* Bordes redondeados */
-  overflow: auto; /* Añade scroll cuando el contenido excede la altura */
-  overflow-y: auto; /* Añade scroll vertical */
-}
-
-/* Estilos para el botón de cerrar */
-.close {
-  color: #aaa;
-  width: 10px;
-  font-size: 28px;
-  font-weight: bold;
-  transition: color 0.3s; /* Transición suave del color al pasar el ratón */
-}
-
-
-.close:hover,
-.close:focus {
-  color: #fff; /* Cambia el color al pasar el ratón */
-  text-decoration: none;
-  cursor: pointer;
-}
 
 
   
